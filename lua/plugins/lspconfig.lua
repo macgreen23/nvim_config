@@ -32,6 +32,18 @@ return {
                     capabilities = capabilities,
                 })
             end,
+            ["cmake"] = function()
+                nvim_lsp["cmake"].setup({
+                    on_attach = on_attach,
+                    capabilities = capabilities,
+                })
+            end,
+            ["clangd"] = function()
+                nvim_lsp["clangd"].setup({
+                    on_attach = on_attach,
+                    capabilities = capabilities,
+                })
+            end,
             ["ts_ls"] = function()
                 nvim_lsp["ts_ls"].setup({
                     on_attach = on_attach,
