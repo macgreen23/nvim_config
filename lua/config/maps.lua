@@ -1,9 +1,9 @@
 local function map(mode, lhs, rhs)
-    vim.keymap.set(mode, lhs, rhs, { silent = true })
+	vim.keymap.set(mode, lhs, rhs, { silent = true })
 end
 
 vim.keymap.set("n", "<leader>td", function()
-    vim.diagnostic.enable(not vim.diagnostic.is_enabled())
+	vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end, { silent = true, noremap = true })
 
 -- Custom Insert Word Backspace
@@ -14,10 +14,8 @@ map("i", "<C-Del>", "<C-o>dw")
 map("n", "<leader>w", "<CMD>update<CR>")
 
 -- Quit
-map("n", "<leader>qq", "<CMD>q<CR>")
-map("n", "<leader>qf", "<CMD>q!<CR>")
-map("n", "<leader>qa", "<CMD>qa<CR>")
-map("n", "<leader>qA", "<CMD>qa!<CR>")
+map("n", "<leader>q", "<CMD>q<CR>")
+map("n", "<leader>Q", "<CMD>q!<CR>")
 
 -- Exit insert mode
 map("i", "jk", "<ESC>")

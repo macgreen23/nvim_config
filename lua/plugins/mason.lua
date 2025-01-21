@@ -18,6 +18,8 @@ return {
                 "pyright",
                 "tailwindcss",
                 "lua_ls",
+                "clangd",
+                "cmake",
             },
         })
 
@@ -29,6 +31,9 @@ return {
                 "black", -- python formatter
                 "pylint",
                 "eslint_d",
+                "clang-format",
+                "cpplint",
+                "cmakelang",
             },
         })
     end,
