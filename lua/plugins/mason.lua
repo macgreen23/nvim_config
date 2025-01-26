@@ -16,11 +16,13 @@ return {
                 "html",
                 "jsonls",
                 "ts_ls",
-                "pyright",
                 "tailwindcss",
                 "lua_ls",
                 "clangd",
                 "cmake",
+                "ruff",
+                "lua_ls",
+                "pyright",
             },
         })
 
@@ -28,13 +30,14 @@ return {
             ensure_installed = {
                 "prettier",
                 "stylua", -- lua formatter
-                "isort", -- python formatter
-                "black", -- python formatter
                 "pylint",
                 "eslint_d",
                 "clang-format",
                 "cpplint",
                 "cmakelang",
+                "ruff",
+                "black",
+                "isort",
             },
         })
     end,

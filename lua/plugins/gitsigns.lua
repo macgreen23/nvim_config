@@ -1,4 +1,3 @@
-
 return {
     "lewis6991/gitsigns.nvim",
     config = function()
@@ -40,9 +39,6 @@ return {
                 relative = "cursor",
                 row = 0,
                 col = 1,
-            },
-            yadm = {
-                enable = false,
             },
         })
     end,
