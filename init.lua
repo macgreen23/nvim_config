@@ -1,3 +1,2 @@
-require("config.lazy")
-require("config.maps")
-require("config.settings")
+require("mac.lazy")
+require("mac.core")
