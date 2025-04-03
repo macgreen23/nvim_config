@@ -38,6 +38,7 @@ return {
         'quick_lint_js',
         'yamlls',
         'pyright',
+        'matlab_ls',
       }
     })
 
