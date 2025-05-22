@@ -8,4 +8,3 @@ return {
     date_format = '%m/%d/%y %H:%M:%S', -- more concise date format
   }
 }
-
